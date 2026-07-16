@@ -23,7 +23,7 @@ public class Exercicio19 {
             // Atribui a aliquota de 10% mediante o salário:
             ValorImposto = 0.10f * VBsalario;
             System.out.printf("O valor do salário com o imposto de 10%% é: %s\n", ValorImposto);
-        } else if (VBsalario > 2500.00) {
+        } else {
             // Atribui aliquota de 15% mediante o salário:
             ValorImposto = 0.15f * VBsalario;
             System.out.printf("O valor do salário com o imposto de 15%% é: %s\n", ValorImposto);
