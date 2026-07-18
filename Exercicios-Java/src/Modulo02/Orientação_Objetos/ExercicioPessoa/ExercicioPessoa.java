@@ -1,4 +1,4 @@
-package Modulo02.Orientação_Objetos;
+package Modulo02.Orientação_Objetos.ExercicioPessoa;
 
 import java.util.Scanner;
 
