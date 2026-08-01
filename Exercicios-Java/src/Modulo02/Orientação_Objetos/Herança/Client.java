@@ -1,0 +1,14 @@
+package Modulo02.Orientação_Objetos.Herança;
+
+public class Client {
+
+    private String document;
+
+    public String getDocument() {
+        return document;
+    }
+
+    public void setDocument(String document) {
+        this.document = document;
+    }
+}
