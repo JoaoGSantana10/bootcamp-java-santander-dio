@@ -2,7 +2,7 @@ package Modulo04_Collections.Generics.Domain;
 
 import java.util.Objects;
 
-public class ClientDomain implements GenericsDomain<String> {
+public class ClientDomain implements GenericDomain<String> {
 
     private String id;
 

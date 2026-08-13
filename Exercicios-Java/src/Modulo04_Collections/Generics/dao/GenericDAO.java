@@ -1,6 +1,6 @@
 package Modulo04_Collections.Generics.dao;
 
-import Modulo04_Collections.Generics.Domain.GenericsDomain;
+import Modulo04_Collections.Generics.Domain.GenericDomain;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
-public abstract class GenericDAO<ID, T extends GenericsDomain<ID>>  {
+public abstract class GenericDAO<ID, T extends GenericDomain<ID>>  {
 
     private final List<T> db = new ArrayList<>();
 
